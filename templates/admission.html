@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admission & Fees | K.C. International School</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f7f9; margin: 0; }
+        .top-bar { background: #004a99; color: white; padding: 8px 30px; text-align: right; font-size: 0.9rem; }
+        .container { max-width: 1000px; margin: 30px auto; background: white; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; }
+        
+        header { padding: 20px; text-align: center; background: white; }
+        nav { padding: 15px; text-align: center; border-bottom: 4px solid #004a99; background: white; }
+        nav a { margin: 0 20px; text-decoration: none; color: #004a99; font-weight: bold; }
+
+        .page-header { background: #004a99; color: white; padding: 30px; text-align: center; }
+        .section-padding { padding: 40px; }
+
+        h2 { color:#004a99; border-bottom: 2px solid #eee; margin-top: 40px; padding-bottom: 10px; }
+
+        /* Fee Table Styling */
+        .fee-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 1rem; }
+        .fee-table th { background-color: #004a99; color: white; padding: 12px; text-align: left; }
+        .fee-table td { padding: 12px; border: 1px solid #ddd; }
+        .fee-table tr:nth-child(even) { background-color: #f9fbff; }
+
+        /* Procedure Styling */
+        .procedure-step { border-left: 4px solid #004a99; padding: 15px 20px; background: #fdfdfd; margin-bottom: 10px; border-radius: 0 5px 5px 0; }
+
+        /* Form Styling */
+        .enquiry-wrapper { background: #eef4fb; padding: 40px; border-top: 5px solid #004a99; margin-top: 50px; }
+        .enquiry-form-box { max-width: 700px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        
+        input, select, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .btn { background: #004a99; color: white; padding: 15px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; font-size: 1.1rem; }
+        .btn:hover { background: #003366; }
+
+        footer { text-align: center; padding: 30px; background-color: #004a99; color: white; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    📧 Email: <a href="mailto:kcisj2016@gmail.com" style="color: white; text-decoration: none;">kcisj2016@gmail.com</a> | 📞 Call: +91 12345 67890
+</div>
+
+<header>
+    <h1 style="color:#004a99; margin:0;">K.C. International School</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About Us</a>
+    <a href="/admission">Admission</a>
+    <a href="/infrastructure">Infrastructure</a>
+    <a href="/career">Careers</a>
+</nav>
+
+<div class="container">
+    <div class="page-header">
+        <h1>Admission & Fee Details</h1>
+    </div>
+
+    <div class="section-padding">
+        <div style="background: #fff3cd; border: 1px dashed #856404; color: #856404; padding: 15px; border-radius: 8px; text-align: center; font-weight: bold;">
+            📢 OFFER: First 100 admissions are FREE (First come, first serve basis)!
+        </div>
+
+        <h2>Official Fee Structure</h2>
+        <table class="fee-table">
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Heads</th>
+                    <th>Amount</th>
+                    <th>Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Admission Form</td>
+                    <td>Rs. 200/-</td>
+                    <td>One time (Non-refundable)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Registration Fee</td>
+                    <td>Rs. 1000/-</td>
+                    <td>One time (Non-refundable)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Admission Fee</td>
+                    <td>Rs. 15000/-</td>
+                    <td>First 100 admissions free</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Admission Procedure</h2>
+        <div class="procedure-step">
+            <strong>Step 1:</strong> Purchase the Admission Form from the school counter for Rs. 200.
+        </div>
+        <div class="procedure-step">
+            <strong>Step 2:</strong> Submit the Registration Fee (Rs. 1000) with required documents.
+        </div>
+        <div class="procedure-step">
+            <strong>Step 3:</strong> Final Interaction and Document verification.
+        </div>
+    </div>
+
+    <div class="enquiry-wrapper">
+        <div class="enquiry-form-box">
+            <h2 style="margin-top: 0; text-align: center;">Admission Enquiry 2025-26</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 25px;">Fill your details below to receive a call back from our admission team.</p>
+            
+            <form action="https://formspree.io/f/kcisj2016@gmail.com" method="POST">
+                <label>Parent Name</label>
+                <input type="text" name="parent_name" placeholder="Full Name" required>
+                
+                <label>Mobile Number</label>
+                <input type="tel" name="mobile_number" placeholder="10-digit number" required>
+                
+                <label>Class for Admission</label>
+                <select name="admission_class" required>
+                    <option value="">-- Select Class --</option>
+                    <option>Nursery / LKG / UKG</option>
+                    <option>Class 1st to 5th</option>
+                    <option>Class 6th to 9th</option>
+                     <option>Class 10th to 12th</option>
+                </select>
+                
+                <label>Message / Question</label>
+                <textarea name="message" rows="4" placeholder="How can we help you?"></textarea>
+                
+                <input type="hidden" name="_subject" value="New Admission Enquiry - KCIS">
+
+                <button type="submit" class="btn">Submit Enquiry</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 K.C. International School | All Rights Reserved</p>
+    <p style="font-weight: normal; font-size: 0.9rem;">Email: kcisj2016@gmail.com</p>
+</footer>
+
+</body>
+</html>

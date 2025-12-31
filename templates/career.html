@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Careers | K.C. International School</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f7f9; margin: 0; }
+        .top-bar { background: #004a99; color: white; padding: 8px 30px; text-align: right; font-size: 0.9rem; }
+        .container { max-width: 1000px; margin: 30px auto; background: white; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; }
+        
+        header { padding: 20px; text-align: center; background: white; }
+        nav { padding: 15px; text-align: center; border-bottom: 4px solid #004a99; background: white; }
+        nav a { margin: 0 20px; text-decoration: none; color: #004a99; font-weight: bold; }
+
+        .page-header { background: #004a99; color: white; padding: 40px; text-align: center; }
+        .section-padding { padding: 40px; }
+
+        /* Job Card Styling */
+        .job-card { background: #fff; border: 1px solid #ddd; padding: 25px; margin-bottom: 20px; border-radius: 8px; border-left: 6px solid #28a745; }
+        .job-card h3 { margin: 0 0 10px 0; color: #004a99; font-size: 1.5rem; }
+        .job-details { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px; }
+        .job-details span { color: #555; font-size: 0.95rem; }
+        
+        .apply-now-btn { display: inline-block; background: #28a745; color: white; padding: 10px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; transition: 0.3s; }
+        .apply-now-btn:hover { background: #218838; }
+
+        /* Application Form */
+        .form-box { background: #f0f4f8; padding: 35px; border-radius: 8px; margin-top: 50px; scroll-margin-top: 20px; }
+        input, select, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .submit-btn { background: #004a99; color: white; padding: 15px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; width: 100%; font-size: 1.1rem; }
+
+        footer { text-align: center; padding: 30px; background-color: #004a99; color: white; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">📧 kcisj2016@gmail.com | 📞 Call: +91 12345 67890</div>
+
+<header><h1 style="color:#004a99; margin:0;">K.C. International School</h1></header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About Us</a>
+    <a href="/infrastructure">Infrastructure</a>
+    <a href="/career">Career</a>
+    <a href="/admission">Admission</a>
+</nav>
+
+<div class="container">
+    <div class="page-header">
+        <h1>Current Openings</h1>
+        <p>Build your career at K.C. International School Greater Noida</p>
+    </div>
+
+    <div class="section-padding">
+        
+        <div class="job-card">
+            <h3>Computer Science Teacher</h3>
+            <div class="job-details">
+                <span><strong>🕒 Type:</strong> Full-Time</span>
+                <span><strong>📍 Location:</strong> KCIS, Greater Noida</span>
+                <span><strong>🎓 Qualification:</strong> BCA (Required), MCA (Plus)</span>
+                <span><strong>💼 Experience:</strong> Min. 1 Year Preferred</span>
+            </div>
+            <p style="color: #666;">We are looking for a tech-savvy educator to lead our modern computer lab and inspire students with digital skills.</p>
+            <a href="#apply-form" class="apply-now-btn">Apply Now</a>
+        </div>
+
+        <div id="apply-form" class="form-box">
+            <h2 style="margin-top:0; color: #004a99;">Application Form</h2>
+            <p>Please provide your details and we will contact you for an interview.</p>
+            
+            <form action="https://formspree.io/f/kcisj2016@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Mobile Number" required>
+                
+                <select name="applying_for" required>
+                    <option value="Computer Science Teacher">Computer Science Teacher</option>
+                    <option value="Other">Other Positions</option>
+                </select>
+
+                <textarea name="message" rows="4" placeholder="Briefly mention your technical skills (e.g., Python, Java, Web Dev)..."></textarea>
+                
+                <input type="hidden" name="_subject" value="New Job Application - Computer Science Teacher">
+                <button type="submit" class="submit-btn">Submit My Application</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<footer><p>© 2025 K.C. International School | All Rights Reserved</p></footer>
+
+</body>
+</html>

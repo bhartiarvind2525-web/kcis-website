@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | K.C. International School</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f7f9; margin: 0; }
+        .top-bar { background: #004a99; color: white; padding: 8px 30px; text-align: right; font-size: 0.9rem; }
+        .container { max-width: 1000px; margin: 30px auto; background: white; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; }
+        header { padding: 30px; text-align: center; background: white; }
+        nav { padding: 15px; text-align: center; border-bottom: 4px solid #004a99; background: white; }
+        nav a { margin: 0 20px; text-decoration: none; color: #004a99; font-weight: bold; }
+        .principal-card { display: flex; align-items: center; padding: 40px; background: #fdfdfd; border-bottom: 1px solid #eee; flex-wrap: wrap; }
+        .principal-photo img { width: 180px; height: 180px; border-radius: 50%; border: 4px solid #004a99; object-fit: cover; }
+        .content-box { border-left: 15px solid #004a99; padding: 20px 40px; margin: 20px 0; }
+        footer { text-align: center; padding: 30px; background-color: #004a99; color: white; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    📧 Email: kcisj2016@gmail.com | 📞 Call: +91 12345 67890
+</div>
+
+<header>
+    <h1 style="color:#004a99; margin:0;">K.C. International School</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About Us</a>
+    <a href="/admission">Admission</a>
+    <a href="/infrastructure">Infrastructure</a>
+    <a href="/career">Careers</a>
+</nav>
+
+<div class="container">
+    <section class="principal-card">
+        <div style="flex: 1; text-align: center; min-width: 250px;">
+            <img src="{{ url_for('static', filename='images/principal.jpg') }}" alt="Mr. Rajendra Singh">
+            <h3>Mr. Rajendra Singh</h3>
+            <p style="color:#004a99; font-weight: bold;">Principal, K.C.I.S</p>
+        </div>
+        <div style="flex: 2; padding: 20px;">
+            <h2 style="color:#004a99;">Principal's Message</h2>
+            <p style="font-style: italic; line-height: 1.8;">"Welcome to our school. We are committed to nurturing the leaders of tomorrow."</p>
+        </div>
+    </section>
+
+    <div style="padding: 20px;">
+        <section class="content-box">
+            <h3 style="color:#004a99;">Our Vision</h3>
+            <p>"To create thinkers and leaders of tomorrow who contribute to society with integrity and creativity."</p>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 K.C. International School | All Rights Reserved</p>
+    <p style="font-weight: normal; font-size: 0.9rem;">Email: kcisj2016@gmail.com</p>
+</footer>
+
+</body>
+</html>
